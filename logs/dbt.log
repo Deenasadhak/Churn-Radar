@@ -1,0 +1,37 @@
+==================== 2026-06-26T17:22:52.681629Z | 019f04f4-b082-7872-9fc1-eef8b8619770 ====================
+17:22:52.682258 [info ]: Installing dbt project and profile setup
+17:22:52.801154 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+17:22:52.830535 [info ]: Success Project created successfully!
+17:22:52.831543 [info ]: Info Project name: jaffle_shop
+17:22:52.832075 [info ]: Info Project directory: jaffle_shop
+17:22:52.832581 [info ]: Info Setting up your profile...
+17:22:52.834379 [info ]: Info Creating new profile...
+17:24:58.186619 [info ]: No dbt_cloud.yml found - proceeding without cloud pre-population
+17:34:16.056981 [info ]: Success Profile written to C:\Users\deena\.dbt\profiles.yml
+17:34:16.057967 [info ]: Validating profile inputs, adapters, and connection
+
+17:34:16.062385 [info ]: dbt-core 2.0.0-alpha.2
+17:34:16.068675 [info ]: Started loading project
+17:34:16.106168 [info ]: Loading ~/.dbt/profiles.yml
+17:34:16.116872 [info ]: Finished loading project [  0.05s]
+17:34:16.119846 [info ]: Started debugging
+17:34:16.120631 [info ]: Debugging profile: dev
+17:34:16.121213 [info ]: Debugging dbt version: 2.0.0-alpha.2
+17:34:16.122018 [info ]: Debugging platform: windows x86_64 (windows)
+17:34:16.123357 [info ]: Debugging adapter type: bigquery (remote)
+17:34:16.233076 [info ]: Debugging dependencies:
+  git: OK
+17:34:16.235717 [info ]: Debugging connection:
+  "database": "workhorse-churn-analytics",
+  "schema": "marts",
+  "method": "service-account",
+  "location": "US",
+  "dataproc_batch": null
+17:34:26.605990 [debug]: Query executed on node unknown:
+select 1 as id
+17:34:26.609407 [info ]: Debugging connection test: OK
+17:34:26.612591 [info ]: Debugged All checks passed!
+17:34:26.613854 [info ]: Finished debugging [ 10.49s]
+17:34:28.614017 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' successfully for target 'dev' [11m 36s]
